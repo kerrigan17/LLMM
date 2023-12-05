@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="shoplist">
+        <div class="info-producto">
+          <div class="chuche"></div>
+          <div class="text-product">
+            <p>Pelicula</p>
+            <p>Precio</p>
+            <p>3.50€</p>
+          </div>
+        </div>
+        </div>
+      <div class="pago-logo">
+        <div class="pago">
+          <p>Subtotal:0€</p>
+          <button>Pagar</button>
+          <button>Seguir comprando</button>
+        </div>
+        <div class="logo-carro"> <a href="index.html"><img src="assets/logo-nombre/carroMed.png" alt=""></a></div>
+      </div>
+    
+    </div>
+</body>
+<style>
+    .container {
+        height: 100vw;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 25em;
+        margin-top: 3vw;
+    }
+    .info-producto {
+        background-color: #fff;
+        width: 85%;
+        height: 11em;
+        display: flex;
+        align-items: center;
+        align-self: center;
+        margin-top: 1em;
+        border-radius: 2%;
+    }
+
+    .chuche {
+        background-image: url("assets/productos/erik-mclean-C7enepVlKEE-unsplash.jpg");
+        background-size: cover;
+        width: 20%;
+        height: 60%;
+        margin-left: 2vw;
+    }
+
+    .text-product {
+        width: 30%;
+        height: auto;
+        font-family: IndieFlower;
+        font-size: 1.5em;
+        margin-left: 1em;
+    }
+    
+    .shoplist {
+        background-color: #fb8d98;
+        display: flex;
+        flex-direction: column;
+        width: 55vw;
+        margin-left: 5em;
+        border-radius: 1%;
+    }
+
+    .pago {
+        margin: 0;
+        padding: 0;
+        height: 25em;
+        background-color: white;
+        border-radius: 5%;
+        margin-top: 5vw;
+    }
+
+    .pago :nth-child(1n) {
+        margin: 0;
+    }
+
+    .pago-logo {
+        margin: 0;
+        padding: 0;
+        justify-content: right;
+        width: 18em;
+    }
+    .navbar{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;  
+    }
+    .navbut{
+        padding: 10px;
+        margin: 10px;
+    }
+</style>
+</html>

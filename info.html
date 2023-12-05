@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videoclub Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Videoclub Online</h1>
+    </header>
+
+    <nav>
+        <a href="#quienes_somos">QUIÉNES SOMOS</a>
+        <a href="#nuestros_articulos">NUESTROS ARTÍCULOS</a>
+        <a href="#hazte_cliente">HAZTE CLIENTE</a>
+        <a href="#pedidos">PEDIDOS</a>
+        <a href="#contacto">CONTACTO</a>
+    </nav>
+
+    <section id="novedades">
+        <h2>NOVEDADES DE LA SEMANA/MES</h2>
+        <!-- Aquí puedes poner información sobre las novedades -->
+    </section>
+
+    <section id="peliculas">
+        <div class="pelicula">
+            <img src="url_imagen_pelicula_1.jpg" alt="Título Película 1">
+            <h3>Título Película 1</h3>
+            <p>Descripción breve de la película 1.</p>
+            <a href="#pelicula1">Ver más</a>
+        </div>
+
+        <div class="pelicula">
+            <img src="url_imagen_pelicula_2.jpg" alt="Título Película 2">
+            <h3>Título Película 2</h3>
+            <p>Descripción breve de la película 2.</p>
+            <a href="#pelicula2">Ver más</a>
+        </div>
+
+        <div class="pelicula">
+            <img src="url_imagen_pelicula_3.jpg" alt="Título Película 3">
+            <h3>Título Película 3</h3>
+            <p>Descripción breve de la película 3.</p>
+            <a href="#pelicula3">Ver más</a>
+        </div>
+        <div class="pelicula">
+            <img src="url_imagen_pelicula_3.jpg" alt="Título Película 3">
+            <h3>Título Película 3</h3>
+            <p>Descripción breve de la película 3.</p>
+            <a href="#pelicula3">Ver más</a>
+        </div>
+        <!-- Puedes agregar más películas según sea necesario -->
+    </section>
+
+    <footer>
+        <!-- Información de contacto de tu empresa -->
+    </footer>
+
+</body>
+</html>
+<style>
+    /* Aquí puedes agregar estilos para organizar el contenido de tu web de forma atractiva */
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+section {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+#peliculas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pelicula {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.pelicula:hover {
+    transform: scale(1.05);
+}
+
+.pelicula img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.pelicula h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.pelicula p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.pelicula a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.pelicula a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+    /* Puedes seguir añadiendo estilos según tus preferencias */
+
+</style>

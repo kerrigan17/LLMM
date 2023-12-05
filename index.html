@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoClub Celia</title>
+    <img src="" alt="">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <a href="index.html">
+                <img src="./src/foto.png" class="imagentitulo">
+            </a>
+            <h1 class="titulo">VideoClub Celia</h1>
+        </div>
+        <hr>
+        <nav class="navbar">
+            <a class="navbut" href="./info.html">Quienes somos</a>
+            <a class="navbut" href="./articulos.html">Nuestros articulos</a>
+            <a class="navbut" href="./cliente.html">Hazte cliente</a>
+            <a class="navbut" href="./carrito.html">Carrito</a>
+            <a class="navbut" href="./contacto.html">Contacto</a>
+        </nav>
+        <hr>
+    </header> 
+    <main>
+        <section id="peliculas">
+            <div class="pelicula">
+                <img src="/src/pulp.jpg" alt="simios" class="imagen">
+                <h3>Pulp Fiction</h3>
+                <a href="#pelicula1">Ver más</a>
+            </div>
+    
+            <div class="pelicula">
+                <img src="/src/megalodon.jpg" alt="minion" class="imagen">
+                <h3>Minions: The Rise of Gru</h3>
+                <a href="#pelicula2">Ver más</a>
+            </div>
+    
+            <div class="pelicula">
+                <img src="/src/Star.jpg" alt="Título Película 3" class="imagen">
+                <h3>Título Película 3</h3>
+                <a href="#pelicula3">Ver más</a>
+            </div>
+            <div class="pelicula">
+                <img src="/src/vengadores.jpg" alt="Título Película 3" class="imagen">
+                <h3>Los Vengadores: Endgame</h3>
+                <a href="#pelicula3">Ver más</a>
+            </div>
+    </main>   
+</body>
+</html>
+<style>    
+    body{
+        margin: 0%;
+        background-color:#e22828;
+        background-repeat: no-repeat;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .imagentitulo{
+        display: flex;
+        padding: 0%;
+        width: 5cm;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;    
+        color: aquamarine;    
+    }
+    .containers{
+        display: flex;
+        align-items: center;
+    }    
+    .container {
+        display: flex;
+        justify-content: center;
+        background-color: beige;
+    }
+    .navbar{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        background-color: aquamarine;
+    }
+    .navbut{
+        margin: 10px;
+        color: black;
+    }
+    section {
+    max-width: 1200px;
+    margin: 20px auto;
+    }
+
+    #peliculas {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+
+    .pelicula {
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s;
+    }
+
+    .pelicula:hover {
+        transform: scale(1.05);
+    }
+
+    .pelicula img {
+        max-width: 5cm;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .pelicula h3 {
+        margin-top: 10px;
+        font-size: 1.2em;
+    }
+
+    .pelicula p {
+        font-size: 0.9em;
+        color: #666;
+    }
+
+    .pelicula a {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 8px 16px;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+    .pelicula a:hover {
+        background-color: #555;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 1em;
+        text-align: center;
+    }
+
+</style>
