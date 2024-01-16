@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>VideoClub Celia</title>
     <img src="" alt="">
 </head>
@@ -16,6 +17,7 @@
         </div>
         <hr>
         <nav class="navbar">
+            <a class="navbut" href="./index.html">Inicio</a>
             <a class="navbut" href="./info.html">Quienes somos</a>
             <a class="navbut" href="./articulos.html">Nuestros articulos</a>
             <a class="navbut" href="./cliente.html">Hazte cliente</a>
@@ -25,7 +27,7 @@
         <hr>
     </header> 
     <main>
-        <section>
+        <section class="sectioninfo">
             <h2>Quiénes somos</h2>
             <p>Bienvenidos a nuestro videoclub, donde la pasión por el cine se encuentra con la comodidad y la diversión.</p>
             <p>Somos más que un lugar para alquilar películas; somos tu destino cinematográfico personal. En nuestro videoclub, nos apasiona el cine y creemos en ofrecer a nuestros clientes una experiencia única.</p>
@@ -54,6 +56,11 @@
         display: flex;
         padding: 0%;
         width: 5cm;
+        justify-content: center;
+        align-items: center;
+    }
+    h2{
+        display: flex;
         justify-content: center;
         align-items: center;
     }
@@ -89,10 +96,14 @@
             font-family: Arial, sans-serif;
             margin: 20px;
     }
-    section {
+
+   .sectioninfo{
         margin-top: 20px;
         background-color: white;
         margin: 10px;
+        padding: 30px;
+        border-radius: 8px;
+
     }
 
 </style>
